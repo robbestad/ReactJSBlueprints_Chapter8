@@ -7,6 +7,11 @@
       "type": "git",
       "url": "https://github.com/svenanders/ReactJSBlueprints_Chapter8"
   },
+  "author": {
+    "name": "Sven Anders Robbestad",
+    "email": "sven@robbestad.com",
+    "url": "https://www.robbestad.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm run build",
@@ -16,11 +21,6 @@
     "build": "NODE_ENV=production webpack --config webpack-production.config.js",
     "predeploy": "npm run build",
     "deploy": "echo Ready to deploy. Commit your changes and run git push heroku master"
-  },
-  "author": {
-    "name": "Sven Anders Robbestad",
-    "email": "sven@robbestad.com",
-    "url": "http://www.robbestad.com"
   },
   "license": "ISC",
   "devDependencies": {
